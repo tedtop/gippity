@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D3937A72A90E83300791059 /* HotKeySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3937A62A90E83300791059 /* HotKeySolution.swift */; };
+		7D3937AA2A90E88300791059 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3937A92A90E88300791059 /* String+Extensions.swift */; };
+		7D3937AD2A91041100791059 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3937AC2A91041100791059 /* SettingsView.swift */; };
+		7D3937B02A91419200791059 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FB21A2A8A8A54002CC306 /* AppConfig.swift */; };
+		7D5FB21B2A8A8A54002CC306 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FB21A2A8A8A54002CC306 /* AppConfig.swift */; };
+		7D8027352A8D3C0900CCD6CA /* LauncherApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8027342A8D3C0900CCD6CA /* LauncherApplicationApp.swift */; };
+		7D8027392A8D3C0F00CCD6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8027382A8D3C0F00CCD6CA /* Assets.xcassets */; };
+		7D80273C2A8D3C0F00CCD6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D80273B2A8D3C0F00CCD6CA /* Preview Assets.xcassets */; };
+		7D8027422A8D3CAD00CCD6CA /* LauncherApplication.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D8027322A8D3C0900CCD6CA /* LauncherApplication.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D8027452A8D3CFD00CCD6CA /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8027442A8D3CFD00CCD6CA /* ServiceManagement.framework */; };
+		7D8027472A8D446100CCD6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8027462A8D446100CCD6CA /* AppDelegate.swift */; };
+		7DA284DD2A8FEC48008BA88F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA284DC2A8FEC47008BA88F /* Carbon.framework */; };
+		7DCD2CC52A891FE90013F54C /* GippityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CC42A891FE90013F54C /* GippityApp.swift */; };
+		7DCD2CC92A891FED0013F54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD2CC82A891FED0013F54C /* Assets.xcassets */; };
+		7DCD2CCC2A891FED0013F54C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD2CCB2A891FED0013F54C /* Preview Assets.xcassets */; };
+		7DCD2CD52A8920AA0013F54C /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CD42A8920AA0013F54C /* StorageService.swift */; };
+		7DCD2CD72A8920B80013F54C /* StorageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CD62A8920B80013F54C /* StorageServiceProtocol.swift */; };
+		7DCD2CD92A8920E00013F54C /* AppDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CD82A8920E00013F54C /* AppDelegateProtocol.swift */; };
+		7DCD2CDB2A8920FE0013F54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CDA2A8920FE0013F54C /* AppDelegate.swift */; };
+		7DCD2CDD2A8921190013F54C /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CDC2A8921190013F54C /* AppContext.swift */; };
+		7DCD2CDF2A89213E0013F54C /* ChatGPT_MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD2CDE2A89213E0013F54C /* ChatGPT_MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D8027412A8D3C9D00CCD6CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				7D8027422A8D3CAD00CCD6CA /* LauncherApplication.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D3937A62A90E83300791059 /* HotKeySolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeySolution.swift; sourceTree = "<group>"; };
+		7D3937A92A90E88300791059 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		7D3937AC2A91041100791059 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7D5FB21A2A8A8A54002CC306 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		7D8027322A8D3C0900CCD6CA /* LauncherApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LauncherApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8027342A8D3C0900CCD6CA /* LauncherApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherApplicationApp.swift; sourceTree = "<group>"; };
+		7D8027382A8D3C0F00CCD6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D80273B2A8D3C0F00CCD6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D80273D2A8D3C0F00CCD6CA /* LauncherApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LauncherApplication.entitlements; sourceTree = "<group>"; };
+		7D8027442A8D3CFD00CCD6CA /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		7D8027462A8D446100CCD6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DA284DC2A8FEC47008BA88F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		7DCD2CC12A891FE90013F54C /* Gippity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gippity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCD2CC42A891FE90013F54C /* GippityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GippityApp.swift; sourceTree = "<group>"; };
+		7DCD2CC82A891FED0013F54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DCD2CCB2A891FED0013F54C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DCD2CCD2A891FED0013F54C /* Gippity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gippity.entitlements; sourceTree = "<group>"; };
+		7DCD2CD42A8920AA0013F54C /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		7DCD2CD62A8920B80013F54C /* StorageServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageServiceProtocol.swift; sourceTree = "<group>"; };
+		7DCD2CD82A8920E00013F54C /* AppDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateProtocol.swift; sourceTree = "<group>"; };
+		7DCD2CDA2A8920FE0013F54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DCD2CDC2A8921190013F54C /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		7DCD2CDE2A89213E0013F54C /* ChatGPT_MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D80272F2A8D3C0900CCD6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCD2CBE2A891FE90013F54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8027452A8D3CFD00CCD6CA /* ServiceManagement.framework in Frameworks */,
+				7DA284DD2A8FEC48008BA88F /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D3937A42A90E80C00791059 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D3937A52A90E81600791059 /* HotKeySolution */,
+				7DCD2CD32A8920910013F54C /* StorageService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7D3937A52A90E81600791059 /* HotKeySolution */ = {
+			isa = PBXGroup;
+			children = (
+				7D3937A62A90E83300791059 /* HotKeySolution.swift */,
+			);
+			path = HotKeySolution;
+			sourceTree = "<group>";
+		};
+		7D3937A82A90E86200791059 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D3937A92A90E88300791059 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D3937AB2A90E8D100791059 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DCD2CC42A891FE90013F54C /* GippityApp.swift */,
+				7DCD2CDE2A89213E0013F54C /* ChatGPT_MenuView.swift */,
+				7D3937AC2A91041100791059 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D8027332A8D3C0900CCD6CA /* LauncherApplication */ = {
+			isa = PBXGroup;
+			children = (
+				7D8027342A8D3C0900CCD6CA /* LauncherApplicationApp.swift */,
+				7D8027462A8D446100CCD6CA /* AppDelegate.swift */,
+				7D8027382A8D3C0F00CCD6CA /* Assets.xcassets */,
+				7D80273D2A8D3C0F00CCD6CA /* LauncherApplication.entitlements */,
+				7D80273A2A8D3C0F00CCD6CA /* Preview Content */,
+			);
+			path = LauncherApplication;
+			sourceTree = "<group>";
+		};
+		7D80273A2A8D3C0F00CCD6CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D80273B2A8D3C0F00CCD6CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D8027432A8D3CFD00CCD6CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA284DC2A8FEC47008BA88F /* Carbon.framework */,
+				7D8027442A8D3CFD00CCD6CA /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DCD2CB82A891FE90013F54C = {
+			isa = PBXGroup;
+			children = (
+				7DCD2CC32A891FE90013F54C /* Gippity */,
+				7D8027332A8D3C0900CCD6CA /* LauncherApplication */,
+				7DCD2CC22A891FE90013F54C /* Products */,
+				7D8027432A8D3CFD00CCD6CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCD2CC22A891FE90013F54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DCD2CC12A891FE90013F54C /* Gippity.app */,
+				7D8027322A8D3C0900CCD6CA /* LauncherApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DCD2CC32A891FE90013F54C /* Gippity */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FB21A2A8A8A54002CC306 /* AppConfig.swift */,
+				7DCD2CD82A8920E00013F54C /* AppDelegateProtocol.swift */,
+				7DCD2CDA2A8920FE0013F54C /* AppDelegate.swift */,
+				7DCD2CDC2A8921190013F54C /* AppContext.swift */,
+				7D3937AB2A90E8D100791059 /* Views */,
+				7D3937A82A90E86200791059 /* Extensions */,
+				7D3937A42A90E80C00791059 /* Services */,
+				7DCD2CC82A891FED0013F54C /* Assets.xcassets */,
+				7DCD2CCD2A891FED0013F54C /* Gippity.entitlements */,
+				7DCD2CCA2A891FED0013F54C /* Preview Content */,
+			);
+			path = Gippity;
+			sourceTree = "<group>";
+		};
+		7DCD2CCA2A891FED0013F54C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DCD2CCB2A891FED0013F54C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DCD2CD32A8920910013F54C /* StorageService */ = {
+			isa = PBXGroup;
+			children = (
+				7DCD2CD42A8920AA0013F54C /* StorageService.swift */,
+				7DCD2CD62A8920B80013F54C /* StorageServiceProtocol.swift */,
+			);
+			path = StorageService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D8027312A8D3C0900CCD6CA /* LauncherApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8027402A8D3C0F00CCD6CA /* Build configuration list for PBXNativeTarget "LauncherApplication" */;
+			buildPhases = (
+				7D80272E2A8D3C0900CCD6CA /* Sources */,
+				7D80272F2A8D3C0900CCD6CA /* Frameworks */,
+				7D8027302A8D3C0900CCD6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LauncherApplication;
+			productName = LauncherApplication;
+			productReference = 7D8027322A8D3C0900CCD6CA /* LauncherApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DCD2CC02A891FE90013F54C /* Gippity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCD2CD02A891FED0013F54C /* Build configuration list for PBXNativeTarget "Gippity" */;
+			buildPhases = (
+				7DCD2CBD2A891FE90013F54C /* Sources */,
+				7DCD2CBE2A891FE90013F54C /* Frameworks */,
+				7DCD2CBF2A891FE90013F54C /* Resources */,
+				7D8027412A8D3C9D00CCD6CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gippity;
+			packageProductDependencies = (
+			);
+			productName = Gippity;
+			productReference = 7DCD2CC12A891FE90013F54C /* Gippity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DCD2CB92A891FE90013F54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7D8027312A8D3C0900CCD6CA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					7DCD2CC02A891FE90013F54C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7DCD2CBC2A891FE90013F54C /* Build configuration list for PBXProject "Gippity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DCD2CB82A891FE90013F54C;
+			packageReferences = (
+			);
+			productRefGroup = 7DCD2CC22A891FE90013F54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DCD2CC02A891FE90013F54C /* Gippity */,
+				7D8027312A8D3C0900CCD6CA /* LauncherApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D8027302A8D3C0900CCD6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D80273C2A8D3C0F00CCD6CA /* Preview Assets.xcassets in Resources */,
+				7D8027392A8D3C0F00CCD6CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCD2CBF2A891FE90013F54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCD2CCC2A891FED0013F54C /* Preview Assets.xcassets in Resources */,
+				7DCD2CC92A891FED0013F54C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D80272E2A8D3C0900CCD6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3937B02A91419200791059 /* AppConfig.swift in Sources */,
+				7D8027472A8D446100CCD6CA /* AppDelegate.swift in Sources */,
+				7D8027352A8D3C0900CCD6CA /* LauncherApplicationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCD2CBD2A891FE90013F54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5FB21B2A8A8A54002CC306 /* AppConfig.swift in Sources */,
+				7D3937AA2A90E88300791059 /* String+Extensions.swift in Sources */,
+				7DCD2CDB2A8920FE0013F54C /* AppDelegate.swift in Sources */,
+				7DCD2CD52A8920AA0013F54C /* StorageService.swift in Sources */,
+				7DCD2CDF2A89213E0013F54C /* ChatGPT_MenuView.swift in Sources */,
+				7DCD2CDD2A8921190013F54C /* AppContext.swift in Sources */,
+				7DCD2CC52A891FE90013F54C /* GippityApp.swift in Sources */,
+				7DCD2CD92A8920E00013F54C /* AppDelegateProtocol.swift in Sources */,
+				7D3937AD2A91041100791059 /* SettingsView.swift in Sources */,
+				7D3937A72A90E83300791059 /* HotKeySolution.swift in Sources */,
+				7DCD2CD72A8920B80013F54C /* StorageServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D80273E2A8D3C0F00CCD6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LauncherApplication/LauncherApplication.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LauncherApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = G66L8NL8G5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gippity.LauncherApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D80273F2A8D3C0F00CCD6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LauncherApplication/LauncherApplication.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LauncherApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = G66L8NL8G5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gippity.LauncherApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7DCD2CCE2A891FED0013F54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DCD2CCF2A891FED0013F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7DCD2CD12A891FED0013F54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Gippity/Gippity.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gippity/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = G66L8NL8G5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gippity.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7DCD2CD22A891FED0013F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Gippity/Gippity.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gippity/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = G66L8NL8G5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gippity.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8027402A8D3C0F00CCD6CA /* Build configuration list for PBXNativeTarget "LauncherApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D80273E2A8D3C0F00CCD6CA /* Debug */,
+				7D80273F2A8D3C0F00CCD6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DCD2CBC2A891FE90013F54C /* Build configuration list for PBXProject "Gippity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCD2CCE2A891FED0013F54C /* Debug */,
+				7DCD2CCF2A891FED0013F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DCD2CD02A891FED0013F54C /* Build configuration list for PBXNativeTarget "Gippity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCD2CD12A891FED0013F54C /* Debug */,
+				7DCD2CD22A891FED0013F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DCD2CB92A891FE90013F54C /* Project object */;
+}
